@@ -310,45 +310,10 @@ npm run dev
 
 ## 8.生命周期
 
-<div style="border:1px solid black;width:380px;float:left;margin-right:20px;"><strong>vue2.x的生命周期</strong><img src="https://cn.vuejs.org/images/lifecycle.png" alt="lifecycle_2" style="zoom:33%;width:1200px" /></div><div style="border:1px solid black;width:510px;height:985px;float:left"><strong>vue3.0的生命周期</strong><img src="https://v3.cn.vuejs.org/images/lifecycle.svg" alt="lifecycle_2" style="zoom:33%;width:2500px" /></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1
+**vue2.x的生命周期**
+![vue2.x的生命周期](../images/lifecycle.png)
+**vue3.0的生命周期**
+![vue3.0的生命周期](../images/lifecycle-3.png)
 
 - Vue3.0中可以继续使用Vue2.x中的生命周期钩子，但有有两个被更名：
   - ```beforeDestroy```改名为 ```beforeUnmount```
@@ -462,7 +427,7 @@ npm run dev
 
 ## 5.provide 与 inject
 
-<img src="https://v3.cn.vuejs.org/images/components_provide.png" style="width:300px" />
+![provide-inject](../images/provide-inject.png)
 
 - 作用：实现<strong style="color:#DD5145">祖与后代组件间</strong>通信
 
